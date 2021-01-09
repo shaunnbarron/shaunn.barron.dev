@@ -1,7 +1,7 @@
 <template>
   <div class="shadow-md dark:bg-gray-700 rounded-lg">
-    <div class="h-12 bg-green-400 flex items-center p-8 text-2xl rounded-t-lg">
-      <div class="w-full text-left">{{ company }}</div>
+    <div class="h-12 bg-green-600 flex items-center p-8 text-2xl rounded-t-lg">
+      <div class="w-full text-left text-gray-200">{{ company }}</div>
     </div>
 
     <div class="p-6">
