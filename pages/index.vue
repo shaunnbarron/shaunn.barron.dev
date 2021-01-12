@@ -2,7 +2,7 @@
   <div>
     <div class="flex flex-wrap">
       <div class="w-full lg:w-1/3 text-center px-5">
-        <img src="/avatar.jpg" class="rounded-full shadow-lg inline" alt="avatar"/>
+        <img src="/avatar.jpg" class="rounded-full shadow-lg inline h-36 w-36" alt="avatar"/>
         <div class="text-3xl mb-2">Shaunn Barron</div>
         <div class="text-lg mb-1">Full Stack Developer</div>
         <div class="text-lg mb-4">Favorite Tools</div>
