@@ -14,7 +14,3 @@
     <div class="text-center">{{ name }}</div>
   </a>
 </template>
-
-<style scoped>
-
-</style>

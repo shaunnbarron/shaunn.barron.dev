@@ -1,6 +1,4 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import TechLogoLink from "./components/TechLogoLink.vue";
 import resume from "./assets/resume.json";
 import avatarUrl from "./assets/avatar.jpeg";
@@ -22,7 +20,7 @@ const education = resume.education[0]
         <div class="text-lg mb-4">Favorite Tools</div>
 
         <div class="flex justify-center mb-4">
-          <TechLogoLink class="mx-8" :src="goLogoUrl" name="Go" href="https://golang.org/"/>
+          <TechLogoLink class="mx-8" :src="goLogoUrl" name="Go" href="https://go.dev/"/>
           <TechLogoLink class="mx-8" :src="vueLogoUrl" name="Vue" href="https://vuejs.org/"/>
         </div>
         <div>{{education.studyType}} - {{education.area}}</div>
