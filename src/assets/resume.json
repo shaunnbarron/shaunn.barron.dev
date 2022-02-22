@@ -23,6 +23,7 @@
       "website": "https://www.fiserv.com/",
       "startDate": "2019-09-09",
       "highlights": [
+        "Lead effort to rewrite digital payouts application in Vue.js",
         "Technical supervision and architecture of a white label mobile platform"
       ]
     },
