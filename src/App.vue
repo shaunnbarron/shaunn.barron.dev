@@ -1,7 +1,16 @@
+<script setup>
+
+import { useDark } from "./composables/dark";
+
+const dark = useDark();
+</script>
+
 <template>
+  <div :class="{ dark }">
     <main>
       <RouterView/>
     </main>
+  </div>
 </template>
 
 <style scoped>

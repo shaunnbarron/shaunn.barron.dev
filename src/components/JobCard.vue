@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from "vue";
 import { format, parseISO } from "date-fns";
+import { useDark } from "../composables/dark";
 
 const props = defineProps({
   company: {
@@ -36,10 +37,12 @@ function formatDate(iso) {
   const d = parseISO(iso)
   return format(d, "MMM yyyy")
 }
+
+const dark = useDark()
 </script>
 
 <template>
-  <li class="card-container" :class="{'shadow-md': !cv}">
+  <li class="card-container" :class="{'shadow-md': !cv, 'border': cv && !dark}">
     <div class="heading-container">
       <h2 class="heading">{{ company }}</h2>
     </div>
