@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from "vue";
-import {format, parseISO} from "date-fns"
+import { format, parseISO } from "date-fns";
 
 const props = defineProps({
   company: {
@@ -23,6 +23,10 @@ const props = defineProps({
     required: true,
     type: Array,
   },
+  cv: {
+    type: Boolean,
+    default: false,
+  }
 })
 
 const start = computed(() => formatDate(props.startDate))
@@ -35,9 +39,9 @@ function formatDate(iso) {
 </script>
 
 <template>
-  <li class="shadow-md dark:bg-gray-700 rounded-lg">
-    <div class="h-12 bg-gradient-to-r from-emerald-600 to-emerald-400 flex items-center p-8 text-2xl rounded-t-lg">
-      <h2 class="w-full text-left text-white">{{ company }}</h2>
+  <li class="card-container" :class="{'shadow-md': !cv}">
+    <div class="heading-container">
+      <h2 class="heading">{{ company }}</h2>
     </div>
 
     <div class="p-6">
@@ -62,5 +66,17 @@ function formatDate(iso) {
 <style scoped>
 .pis-20 {
   padding-inline-start: 20px;
+}
+
+.card-container {
+  @apply dark:bg-gray-700 rounded-lg
+}
+
+.heading-container {
+  @apply h-12 bg-gradient-to-r from-emerald-600 to-emerald-400 flex items-center p-8 text-2xl rounded-t-lg
+}
+
+.heading {
+  @apply w-full text-left text-white
 }
 </style>
