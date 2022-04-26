@@ -42,9 +42,9 @@
       ]
     },
     {
-      "company": "CrossChx",
+      "company": "Olive",
       "position": "Senior Software Engineer",
-      "website": "https://crosschx.com",
+      "website": "https://oliveai.com",
       "startDate": "2016-11-14",
       "endDate": "2018-02-02",
       "highlights": [
@@ -58,11 +58,11 @@
     {
       "company": "Fuse by Cardinal Health",
       "position": "Software Engineer",
-      "website": "http://www.cardinal.com/us/en/fuse",
+      "website": "https://www.cardinalhealth.com/en/about-us/who-we-are/fuse-by-cardinal-health.html",
       "startDate": "2015-08-01",
       "endDate": "2016-11-11",
       "highlights": [
-        "Care Management – Single page web application and RESTful web service used by pharacists to manage patient medications. (EmberJS, Java 8, Spring Boot, Cassandra, Elasticsearch, Kafka)",
+        "Care Management – Single page web application and RESTful web service used by pharmacists to manage patient medications. (EmberJS, Java 8, Spring Boot, Cassandra, Elasticsearch, Kafka)",
         "Alfred – Android application and RESTful web service used to manage patient medication adherence. (Java 8, Spring Boot, AngularJS, MySQL, Kafka)"
       ]
     },
@@ -78,9 +78,9 @@
       ]
     },
     {
-      "company": "CrossChx",
+      "company": "Olive",
       "position": "Software Engineer, Team Lead",
-      "website": "https://crosschx.com",
+      "website": "https://oliveai.com",
       "startDate": "2012-09-01",
       "endDate": "2015-02-01",
       "summary": "Company's first full-time product engineer. Responsible for product development and much of the company's current architecture.",
