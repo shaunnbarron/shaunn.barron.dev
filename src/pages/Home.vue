@@ -2,8 +2,8 @@
 import TechLogoLink from "../components/TechLogoLink.vue";
 import resume from "../assets/resume.json";
 import avatarUrl from "../assets/avatar.jpeg";
-import vueLogoUrl from "../assets/vue_logo.png";
-import goLogoUrl from "../assets/gopher.png";
+import vueLogoUrl from "../assets/vue_logo.svg";
+import goLogoUrl from "../assets/go_logo.svg";
 import SectionTitle from "../components/SectionTitle.vue";
 import JobCard from "../components/JobCard.vue";
 
@@ -19,8 +19,8 @@ defineProps({cv: {type: Boolean, default: false}});
     <div class="text-lg mb-1">Full Stack Developer</div>
     <div class="text-lg mb-4">Favorite Tools</div>
 
-    <div class="flex justify-center mb-4">
-      <TechLogoLink class="mx-8" :src="goLogoUrl" name="Go" href="https://go.dev/"/>
+    <div class="flex justify-center align-middle mb-4">
+      <TechLogoLink class="mx-8" :src="goLogoUrl" name="Go" href="https://go.dev/" height="50px"/>
       <TechLogoLink class="mx-8" :src="vueLogoUrl" name="Vue" href="https://vuejs.org/"/>
     </div>
     <div>{{education.studyType}} - {{education.area}}</div>
