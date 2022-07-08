@@ -19,9 +19,17 @@
   "work": [
     {
       "company": "Fiserv",
-      "position": "UI Lead",
+      "position": "Director Software Development",
+      "website": "https://www.fiserv.com/",
+      "startDate": "2022-07-07",
+      "highlights": []
+    },
+    {
+      "company": "Fiserv",
+      "position": "Enterprise Architect, Sr Advisor",
       "website": "https://www.fiserv.com/",
       "startDate": "2019-09-09",
+      "endDate": "2022-07-06",
       "highlights": [
         "Lead effort to rewrite digital payouts application in Vue.js",
         "Technical supervision and architecture of a white label mobile platform"
