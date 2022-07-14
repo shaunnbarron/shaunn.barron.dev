@@ -7,4 +7,8 @@ export default [
     component: Home,
     props: (route) => ({ cv: route.query.cv === "true" }),
   },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
+  },
 ];
