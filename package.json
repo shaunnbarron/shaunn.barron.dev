@@ -4,21 +4,28 @@
   "scripts": {
     "dev": "vite",
     "build": "vite-ssg build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@vueuse/core": "^8.2.5",
+    "@vueuse/core": "^8.6.0",
     "date-fns": "^2.28.0",
-    "vue": "^3.2.25"
+    "vue": "^3.2.36"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.0.0",
-    "@vueuse/head": "^0.7.5",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.19",
-    "vite": "^2.7.2",
-    "vite-ssg": "^0.17.10",
-    "vue-router": "^4.0.14"
+    "@rushstack/eslint-patch": "^1.1.3",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vueuse/head": "^0.7.6",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.17.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9",
+    "vite-ssg": "^0.20.1",
+    "vue-router": "^4.0.15"
   }
 }

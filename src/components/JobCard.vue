@@ -27,38 +27,40 @@ const props = defineProps({
   cv: {
     type: Boolean,
     default: false,
-  }
-})
+  },
+});
 
-const start = computed(() => formatDate(props.startDate))
-const end = computed(() => !!props.endDate ? formatDate(props.endDate) : "Present")
+const start = computed(() => formatDate(props.startDate));
+const end = computed(() =>
+  props.endDate ? formatDate(props.endDate) : "Present"
+);
 
 function formatDate(iso) {
-  const d = parseISO(iso)
-  return format(d, "MMM yyyy")
+  const d = parseISO(iso);
+  return format(d, "MMM yyyy");
 }
 
-const dark = useDark()
+const dark = useDark();
 </script>
 
 <template>
-  <li class="card-container" :class="{'shadow-md': !cv, 'border': cv && !dark}">
+  <li class="card-container" :class="{ 'shadow-md': !cv, border: cv && !dark }">
     <div class="heading-container">
       <h2 class="heading">{{ company }}</h2>
     </div>
 
     <div class="p-6">
-      <div class="flex flex-wrap mb-3 text-xl">
+      <div class="mb-3 flex flex-wrap text-xl">
         <div class="w-1/2 text-left">{{ position }}</div>
-        <div class="w-1/2 text-right text-grey-dark">
+        <div class="text-grey-dark w-1/2 text-right">
           {{ start }} - {{ end }}
         </div>
       </div>
 
       <hr class="divider my-4" />
 
-      <ul class="mt-3 text-left pis-20 list-disc">
-        <li v-for="highlight in highlights" class="text-md mb-4">
+      <ul class="pis-20 mt-3 list-disc text-left">
+        <li v-for="(highlight, i) in highlights" class="text-md mb-4" :key="i">
           {{ highlight }}
         </li>
       </ul>
@@ -72,14 +74,14 @@ const dark = useDark()
 }
 
 .card-container {
-  @apply dark:bg-gray-700 rounded-lg
+  @apply rounded-lg dark:bg-gray-700;
 }
 
 .heading-container {
-  @apply h-12 bg-gradient-to-r from-emerald-600 to-emerald-400 flex items-center p-8 text-2xl rounded-t-lg
+  @apply flex h-12 items-center rounded-t-lg bg-gradient-to-r from-emerald-600 to-emerald-400 p-8 text-2xl;
 }
 
 .heading {
-  @apply w-full text-left text-white
+  @apply w-full text-left text-white;
 }
 </style>
