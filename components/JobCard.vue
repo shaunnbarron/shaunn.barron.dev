@@ -1,5 +1,4 @@
-<script setup>
-import { computed } from "vue";
+<script setup lang="ts">
 import { format, parseISO } from "date-fns";
 import { useDark } from "../composables/dark";
 

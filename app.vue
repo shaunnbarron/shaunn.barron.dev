@@ -1,15 +1,19 @@
-<script setup>
+<script setup lang="ts">
 import { useDark } from "./composables/dark";
 
 const dark = useDark();
+
+useHead({
+  bodyAttrs: {
+    class: {dark}
+  }
+})
 </script>
 
 <template>
-  <div :class="{ dark }">
-    <main>
-      <RouterView />
-    </main>
-  </div>
+  <main>
+    <NuxtPage />
+  </main>
 </template>
 
 <style scoped>

@@ -1,5 +1,3 @@
-import { useRoute } from "vue-router";
-import { computed } from "vue";
 import { usePreferredDark } from "@vueuse/core";
 
 export function useDark() {
