@@ -6,4 +6,7 @@ export default defineNuxtConfig({
       darkMode: "class",
     },
   },
+  image: {
+    provider: "ipx",
+  },
 });
