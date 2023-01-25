@@ -1,12 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image-edge"],
-  tailwindcss: {
-    config: {
-      darkMode: "class",
-    },
+  experimental: {
+    reactivityTransform: true,
   },
-  image: {
-    provider: "ipx",
+  modules: [
+    "@nuxt/content",
+    "@nuxt/image-edge",
+    "@nuxtjs/color-mode",
+    "@nuxtjs/tailwindcss",
+  ],
+  colorMode: {
+    classSuffix: "",
   },
 });

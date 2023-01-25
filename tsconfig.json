@@ -1,8 +1,4 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
-  "include": ["assets/**/*.json"],
-  "compilerOptions": {
-    "resolveJsonModule": true
-  }
+  "extends": "./.nuxt/tsconfig.json"
 }

@@ -22,6 +22,7 @@
       "position": "Director Software Development",
       "website": "https://www.fiserv.com/",
       "startDate": "2022-07-07",
+      "startDatePretty": "July 2022",
       "highlights": [
         "White label banking application"
       ]
@@ -31,7 +32,9 @@
       "position": "Enterprise Architect, Sr Advisor",
       "website": "https://www.fiserv.com/",
       "startDate": "2019-09-09",
+      "startDatePretty": "September 2019",
       "endDate": "2022-07-06",
+      "endDatePretty": "July 2022",
       "highlights": [
         "UI lead for digitalpayouts.com (Vue.js)",
         "Technical supervision and architecture of a white label mobile platform"
@@ -42,7 +45,9 @@
       "position": "Vice President - Software Engineering",
       "website": "https://www.jpmorganchase.com/",
       "startDate": "2018-02-05",
+      "startDatePretty": "February 2018",
       "endDate": "2019-09-06",
+      "endDatePretty": "September 2019",
       "highlights": [
         "Allowance - Mobile application for managing a child's chores and funding their allowance. (Flutter, Firebase)",
         "Virtual Bank - Multi-user virtual bank environment with voice chat for the Oculus Rift. (Unity, C#)",
@@ -56,7 +61,9 @@
       "position": "Senior Software Engineer",
       "website": "https://oliveai.com",
       "startDate": "2016-11-14",
+      "startDatePretty": "November 2016",
       "endDate": "2018-02-02",
+      "endDatePretty": "February 2018",
       "highlights": [
         "Olive Manager UI - Single page web app to build and launch various workflows in AWS. (React)",
         "Olive Planner - Job Scheduler (Go, Buffalo, Vue.js)",
@@ -70,7 +77,9 @@
       "position": "Software Engineer",
       "website": "https://www.cardinalhealth.com/en/about-us/who-we-are/fuse-by-cardinal-health.html",
       "startDate": "2015-08-01",
+      "startDatePretty": "August 2015",
       "endDate": "2016-11-11",
+      "endDatePretty": "November 2016",
       "highlights": [
         "Care Management – Single page web application and RESTful web service used by pharmacists to manage patient medications. (EmberJS, Java 8, Spring Boot, Cassandra, Elasticsearch, Kafka)",
         "Alfred – Android application and RESTful web service used to manage patient medication adherence. (Java 8, Spring Boot, AngularJS, MySQL, Kafka)"
@@ -81,7 +90,9 @@
       "position": "Senior Developer Analyst",
       "website": "https://www.netjets.com",
       "startDate": "2015-02-01",
+      "startDatePretty": "February 2015",
       "endDate": "2015-08-01",
+      "endDatePretty": "August 2015",
       "summary": "",
       "highlights": [
         "Enterprise Trip Management - Single page web application and RESTful web services used to quote, book, and manage flights. (AngularJS, Groovy, Grails, Oracle, Elasticsearch)"
@@ -92,7 +103,9 @@
       "position": "Software Engineer, Team Lead",
       "website": "https://oliveai.com",
       "startDate": "2012-09-01",
+      "startDatePretty": "September 2012",
       "endDate": "2015-02-01",
+      "endDatePretty": "February 2015",
       "summary": "Company's first full-time product engineer. Responsible for product development and much of the company's current architecture.",
       "highlights": [
         "Biometric Engine – Distributed fingerprint identification application. (Java 8, Spring Boot, MySQL, RabbitMQ)",
@@ -109,7 +122,9 @@
       "position": "Developer, IT Applications",
       "website": "https://www.nationwide.com",
       "startDate": "2011-07-01",
+      "startDatePretty": "July 2011",
       "endDate": "2012-09-01",
+      "endDatePretty": "September 2012",
       "summary": "",
       "highlights": [
         "Financial Systems – A suite of applications used calculate unit values, calculate performance, and trade mutual funds. (Java 6, Struts, Oracle)"
@@ -123,7 +138,9 @@
       "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2009-08-01",
+      "startDatePretty": "August 2009",
       "endDate": "2011-05-01",
+      "endDatePretty": "May 2011",
       "gpa": "",
       "courses": []
     }
@@ -132,6 +149,7 @@
     {
       "title": "Outstanding Computer Science Student",
       "date": "2011-05-01",
+      "datePretty": "May 2011",
       "awarder": "University of Rio Grande",
       "summary": ""
     }
