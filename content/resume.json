@@ -24,7 +24,7 @@
       "startDate": "2022-07-07",
       "startDatePretty": "July 2022",
       "highlights": [
-        "White label banking application"
+        "White label banking application (Typescript, Tailwind, React, Remix)"
       ]
     },
     {
@@ -36,7 +36,7 @@
       "endDate": "2022-07-06",
       "endDatePretty": "July 2022",
       "highlights": [
-        "UI lead for digitalpayouts.com (Vue.js)",
+        "UI lead for digitalpayouts.com (Vue, Vuetify, Pinia)",
         "Technical supervision and architecture of a white label mobile platform"
       ]
     },

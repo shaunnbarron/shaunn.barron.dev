@@ -2,11 +2,14 @@
 const { data } = await useAsyncData(() => queryContent("/resume").findOne());
 
 const education = data?.value?.education[0];
-const { cv = false } = defineProps<{ cv?: boolean }>();
+const route = useRoute();
+const cv = computed(() => route.query.cv === "true");
 </script>
 
 <template>
-  <ThemeToggle class="fixed top-4 right-8 h-5 w-5"/>
+  <ClientOnly>
+    <ThemeToggle class="fixed top-4 right-8 h-5 w-5 print:hidden"/>
+  </ClientOnly>
 
   <section
     class="w-full px-5 text-center lg:w-1/3"
