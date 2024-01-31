@@ -22,6 +22,8 @@ const cv = computed(() => route.query.cv === "true");
       :class="{ 'shadow-lg': !cv }"
       alt="Profile Image"
       format="webp"
+      height="144"
+      width="144"
       preload
     />
     <div class="mb-2 text-3xl">Shaunn Barron</div>
