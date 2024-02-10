@@ -58,7 +58,7 @@ const cv = computed(() => route.query.cv === "true");
   >
     <SectionTitle id="experience-heading" title="Experience" />
 
-    <ol>
+    <ol v-if="data">
       <template v-for="(job, i) in data.work" :key="i">
         <JobCard
           class="avoid-page-break mb-5"
@@ -67,7 +67,7 @@ const cv = computed(() => route.query.cv === "true");
           :start-date="job.startDatePretty"
           :end-date="job.endDatePretty"
           :highlights="job.highlights"
-          :cv="cv"
+          :cv
         />
       </template>
     </ol>
