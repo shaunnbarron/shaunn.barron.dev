@@ -1,0 +1,39 @@
+<script setup lang="ts">
+defineProps<{
+  cv: boolean;
+  work: {
+    company: string;
+    position: string;
+    startDatePretty: string;
+    endDatePretty: string;
+    highlights: string[];
+  }[];
+}>();
+</script>
+
+<template>
+  <section
+    class="w-full px-4 text-center lg:w-2/3"
+    aria-labelledby="experience-heading"
+  >
+    <SectionTitle id="experience-heading" title="Experience" />
+    <ol>
+      <template
+        v-for="(
+          { company, position, startDatePretty, endDatePretty, highlights }, i
+        ) in work"
+        :key="i"
+      >
+        <JobCard
+          class="avoid-page-break mb-5"
+          :company
+          :position
+          :startDate="startDatePretty"
+          :endDate="endDatePretty"
+          :highlights
+          :cv
+        />
+      </template>
+    </ol>
+  </section>
+</template>
