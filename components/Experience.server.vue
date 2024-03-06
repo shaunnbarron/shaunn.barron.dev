@@ -26,11 +26,11 @@ defineProps<{
       >
         <JobCard
           class="avoid-page-break mb-5"
-          :company
-          :position
+          :company="company"
+          :position="position"
           :startDate="startDatePretty"
           :endDate="endDatePretty"
-          :highlights
+          :highlights="highlights"
           :cv
         />
       </template>
