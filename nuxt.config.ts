@@ -4,9 +4,6 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
-  experimental: {
-    componentIslands: true,
-  },
   future: {
     compatibilityVersion: 4,
   },
