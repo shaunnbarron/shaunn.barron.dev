@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   modules: [
-    "@nuxt/content",
     "@nuxt/devtools",
     "@nuxt/image",
     "@nuxtjs/color-mode",

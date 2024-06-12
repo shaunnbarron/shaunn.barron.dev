@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const { data } = await useAsyncData(() => queryContent("/resume").findOne());
+import resume from "../assets/resume.json";
 
-const education = data?.value?.education[0];
+const education = resume.education[0];
 const route = useRoute();
 const cv = computed(() => route.query.cv === "true");
 </script>
@@ -13,5 +13,5 @@ const cv = computed(() => route.query.cv === "true");
 
   <Profile :cv :education />
 
-  <Experience v-if="data" :cv :work="data.work" />
+  <Experience :cv :work="resume.work" />
 </template>

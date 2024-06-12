@@ -1,13 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   cv: boolean;
-  work: {
-    company: string;
-    position: string;
-    startDatePretty: string;
-    endDatePretty: string;
-    highlights: string[];
-  }[];
+  work: Job[];
 }>();
 </script>
 

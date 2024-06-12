@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   cv: boolean;
-  education: { studyType: string; area: string; institution: string };
+  education: Education;
 }>();
 </script>
 
