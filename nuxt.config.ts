@@ -1,8 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: {enabled: true},
+  colorMode: {
+    classSuffix: "",
+  },
   experimental: {
     componentIslands: true,
+  },
+  future: {
+    compatibilityVersion: 4,
   },
   modules: [
     "@nuxt/content",
@@ -11,9 +17,6 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
   ],
-  colorMode: {
-    classSuffix: "",
-  },
   vue: {
     propsDestructure: true,
   }
