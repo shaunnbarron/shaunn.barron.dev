@@ -10,7 +10,12 @@ defineProps<{
     class="w-full px-5 text-center lg:w-1/3"
     aria-labelledby="profile-heading"
   >
-    <h1 id="profile-heading" class="sr-only">Profile</h1>
+    <h1
+      id="profile-heading"
+      class="sr-only"
+    >
+      Profile
+    </h1>
 
     <NuxtImg
       src="/avatar.jpeg"
@@ -22,9 +27,15 @@ defineProps<{
       width="144"
       preload
     />
-    <div class="mb-2 text-3xl">Shaunn Barron</div>
-    <div class="mb-1 text-lg">Full Stack Developer</div>
-    <div class="mb-4 text-lg">Favorite Tools</div>
+    <div class="mb-2 text-3xl">
+      Shaunn Barron
+    </div>
+    <div class="mb-1 text-lg">
+      Full Stack Developer
+    </div>
+    <div class="mb-4 text-lg">
+      Favorite Tools
+    </div>
 
     <div class="mb-4 flex justify-center align-middle">
       <TechLogoLink
@@ -45,6 +56,8 @@ defineProps<{
       />
     </div>
     <div>{{ education.studyType }} - {{ education.area }}</div>
-    <div class="mb-6">{{ education.institution }}</div>
+    <div class="mb-6">
+      {{ education.institution }}
+    </div>
   </section>
 </template>

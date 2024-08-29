@@ -7,11 +7,19 @@ const cv = computed(() => route.query.cv === "true");
 </script>
 
 <template>
-  <ClientOnly>
-    <ThemeToggle class="fixed top-4 right-8 h-5 w-5 print:hidden" />
-  </ClientOnly>
+  <div class="flex flex-wrap">
+    <ClientOnly>
+      <ThemeToggle class="fixed top-4 right-8 h-5 w-5 print:hidden" />
+    </ClientOnly>
 
-  <Profile :cv :education />
+    <ProfileSection
+      :cv
+      :education
+    />
 
-  <Experience :cv :work="resume.work" />
+    <ExperienceSection
+      :cv
+      :work="resume.work"
+    />
+  </div>
 </template>

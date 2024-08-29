@@ -2,9 +2,9 @@
 useHead({
   title: "Shaunn Barron",
   htmlAttrs: {
-    lang: "en"
+    lang: "en",
   },
-})
+});
 </script>
 
 <template>

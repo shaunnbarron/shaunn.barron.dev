@@ -15,26 +15,34 @@ const dark = false;
 <template>
   <li
     class="rounded-lg dark:bg-gray-700"
-    :class="{ 'shadow-md': !cv, border: cv && !dark }"
+    :class="{ 'shadow-md': !cv, 'border': cv && !dark }"
   >
     <div
       class="flex h-12 items-center rounded-t-lg bg-gradient-to-r from-emerald-600 to-emerald-400 p-8 text-2xl"
     >
-      <h2 class="w-full text-left text-white">{{ company }}</h2>
+      <h2 class="w-full text-left text-white">
+        {{ company }}
+      </h2>
     </div>
 
     <div class="p-6">
       <div class="mb-3 flex flex-wrap text-xl">
-        <div class="w-1/2 text-left">{{ position }}</div>
+        <div class="w-1/2 text-left">
+          {{ position }}
+        </div>
         <div class="text-grey-dark w-1/2 text-right">
           {{ startDate }} - {{ endDate }}
         </div>
       </div>
 
-      <hr class="divider my-4" />
+      <hr class="divider my-4">
 
       <ul class="mt-3 list-disc pl-[20px] text-left">
-        <li v-for="(highlight, i) in highlights" class="text-md mb-4" :key="i">
+        <li
+          v-for="(highlight, i) in highlights"
+          :key="i"
+          class="text-md mb-4"
+        >
           {{ highlight }}
         </li>
       </ul>

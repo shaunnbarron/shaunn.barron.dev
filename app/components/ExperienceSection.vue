@@ -10,7 +10,10 @@ defineProps<{
     class="w-full px-4 text-center lg:w-2/3"
     aria-labelledby="experience-heading"
   >
-    <SectionTitle id="experience-heading" title="Experience" />
+    <SectionTitle
+      id="experience-heading"
+      title="Experience"
+    />
     <ol>
       <template
         v-for="(
@@ -22,8 +25,8 @@ defineProps<{
           class="avoid-page-break mb-5"
           :company="company"
           :position="position"
-          :startDate="startDatePretty"
-          :endDate="endDatePretty"
+          :start-date="startDatePretty"
+          :end-date="endDatePretty"
           :highlights="highlights"
           :cv
         />

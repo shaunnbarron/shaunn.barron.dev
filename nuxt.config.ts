@@ -6,7 +6,16 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
 
-  devtools: {enabled: true},
+  devtools: { enabled: true },
+
+  eslint: {
+    config: {
+      stylistic: {
+        quotes: "double",
+        semi: true,
+      },
+    },
+  },
 
   future: {
     compatibilityVersion: 4,
@@ -17,7 +26,16 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
+    "@nuxt/eslint",
   ],
+
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        skipLibCheck: true,
+      },
+    },
+  },
 
   vue: {
     propsDestructure: true,
