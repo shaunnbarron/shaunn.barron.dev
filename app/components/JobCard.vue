@@ -30,18 +30,18 @@ const dark = false;
         <div class="w-1/2 text-left">
           {{ position }}
         </div>
-        <div class="text-grey-dark w-1/2 text-right">
+        <div class="w-1/2 text-right">
           {{ startDate }} - {{ endDate }}
         </div>
       </div>
 
-      <hr class="divider my-4">
+      <hr class="my-4">
 
       <ul class="mt-3 list-disc pl-[20px] text-left">
         <li
           v-for="(highlight, i) in highlights"
           :key="i"
-          class="text-md mb-4"
+          class="mb-4"
         >
           {{ highlight }}
         </li>

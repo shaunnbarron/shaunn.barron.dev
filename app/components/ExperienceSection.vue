@@ -22,7 +22,7 @@ defineProps<{
         :key="i"
       >
         <JobCard
-          class="avoid-page-break mb-5"
+          class="mb-5 break-inside-avoid-page"
           :company="company"
           :position="position"
           :start-date="startDatePretty"

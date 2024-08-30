@@ -19,7 +19,7 @@ defineProps<{
 
     <NuxtImg
       src="/avatar.jpeg"
-      class="inline h-36 w-36 rounded-full"
+      class="inline size-36 rounded-full"
       :class="{ 'shadow-lg': !cv }"
       alt="Profile Image"
       format="webp"

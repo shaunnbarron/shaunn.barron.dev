@@ -9,7 +9,7 @@ const cv = computed(() => route.query.cv === "true");
 <template>
   <div class="flex flex-wrap">
     <ClientOnly>
-      <ThemeToggle class="fixed top-4 right-8 h-5 w-5 print:hidden" />
+      <ThemeToggle class="fixed right-8 top-4 size-5 print:hidden" />
     </ClientOnly>
 
     <ProfileSection
