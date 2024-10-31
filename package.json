@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "1.6.0",
-    "@nuxt/eslint": "0.6.0",
+    "@nuxt/eslint": "0.6.1",
     "@nuxt/image": "1.8.1",
     "@nuxtjs/color-mode": "3.5.2",
     "@nuxtjs/tailwindcss": "6.12.2",
@@ -25,6 +25,6 @@
     "eslint-plugin-tailwindcss": "3.17.5",
     "tailwindcss": "3.4.14",
     "typescript": "5.6.3",
-    "vue-tsc": "2.1.6"
+    "vue-tsc": "2.1.10"
   }
 }
