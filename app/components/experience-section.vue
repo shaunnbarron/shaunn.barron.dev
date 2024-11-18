@@ -16,10 +16,8 @@ defineProps<{
     />
     <ol>
       <template
-        v-for="(
-          { company, position, startDatePretty, endDatePretty, highlights }, i
-        ) in work"
-        :key="i"
+        v-for="({ company, position, startDatePretty, endDatePretty, highlights }) in work"
+        :key="`${company}-${position}`"
       >
         <JobCard
           class="mb-5 break-inside-avoid-page"
