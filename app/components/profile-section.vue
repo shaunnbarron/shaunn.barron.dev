@@ -1,8 +1,10 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   cv: boolean;
   education: Education;
 }>();
+
+const about = computed(() => props.cv ? "Full-stack developer with over 13 years of experience" : "Full-stack developer");
 </script>
 
 <template>
@@ -19,8 +21,8 @@ defineProps<{
 
     <NuxtImg
       src="/avatar.jpeg"
-      class="inline size-36 rounded-full"
-      :class="{ 'shadow-lg': !cv }"
+      class="inline rounded-full"
+      :class="{ 'size-24': cv, 'size-36 shadow-lg': !cv }"
       alt="Profile Image"
       format="webp"
       height="144"
@@ -30,29 +32,35 @@ defineProps<{
     <div class="mb-2 text-3xl">
       Shaunn Barron
     </div>
-    <div class="mb-1 text-lg">
-      Full Stack Developer
+    <div class="mb-1 text-xl">
+      {{ about }}
     </div>
-    <div class="mb-4 text-lg">
+    <div
+      v-if="!cv"
+      class="mb-4 text-lg"
+    >
       Favorite Tools
     </div>
 
-    <div class="mb-4 flex justify-center align-middle">
+    <div
+      v-if="!cv"
+      class="mb-4 flex items-center justify-center gap-8 align-middle"
+    >
       <TechLogoLink
-        class="mx-8"
-        src="/go_logo.svg"
+        class="w-20"
+        src="/go_logo.png"
         name="Go"
         href="https://go.dev/"
-        height="50px"
-        width="56.55px"
+        height="938px"
+        width="1061px"
       />
       <TechLogoLink
-        class="mx-8"
-        src="/vue_logo.svg"
-        name="Vue"
-        href="https://vuejs.org/"
-        height="50px"
-        width="30px"
+        class="size-7"
+        src="/ts_logo.png"
+        name="Typescript"
+        href="https://www.typescriptlang.org/"
+        height="128px"
+        width="128px"
       />
     </div>
     <div>{{ education.studyType }} - {{ education.area }}</div>

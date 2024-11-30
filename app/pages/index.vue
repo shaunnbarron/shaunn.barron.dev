@@ -4,6 +4,7 @@ import resume from "../assets/resume.json";
 const education = resume.education[0] as Education;
 const route = useRoute();
 const cv = computed(() => route.query.cv === "true");
+provide("cv", cv);
 </script>
 
 <template>

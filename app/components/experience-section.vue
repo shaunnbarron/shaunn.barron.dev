@@ -13,6 +13,7 @@ defineProps<{
     <SectionTitle
       id="experience-heading"
       title="Experience"
+      :skinny="cv"
     />
     <ol>
       <template
@@ -20,7 +21,7 @@ defineProps<{
         :key="`${company}-${position}`"
       >
         <JobCard
-          class="mb-5 break-inside-avoid-page"
+          :class="{ 'mb-5': !cv }"
           :company="company"
           :position="position"
           :start-date="startDatePretty"

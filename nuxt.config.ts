@@ -21,6 +21,8 @@ export default defineNuxtConfig({
     },
   },
 
+  css: ["~/assets/app.css"],
+
   vue: {
     propsDestructure: true,
   },

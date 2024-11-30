@@ -9,23 +9,23 @@ interface JobCardProps {
 }
 
 const { cv = false, endDate = "Present" } = defineProps<JobCardProps>();
-const dark = false;
 </script>
 
 <template>
   <li
     class="rounded-lg dark:bg-gray-700"
-    :class="{ 'shadow-md': !cv, 'border': cv && !dark }"
+    :class="{ 'shadow-md': !cv }"
   >
     <div
-      class="flex h-12 items-center rounded-t-lg bg-gradient-to-r from-emerald-600 to-emerald-400 p-8 text-2xl"
+      :class="{ 'rounded-lg px-3 py-1': cv, 'flex h-12 items-center rounded-t-lg p-8': !cv }"
+      class=" bg-gradient-to-r  from-emerald-600 to-emerald-400 text-2xl"
     >
       <h2 class="w-full text-left text-white">
         {{ company }}
       </h2>
     </div>
 
-    <div class="p-6">
+    <div :class="{ 'p-6': !cv, 'px-6 py-3': cv }">
       <div class="mb-3 flex flex-wrap text-xl">
         <div class="w-1/2 text-left">
           {{ position }}

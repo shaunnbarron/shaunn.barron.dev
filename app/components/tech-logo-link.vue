@@ -7,7 +7,7 @@ interface TechLogoLinkProps {
   width?: string;
 }
 
-const { height = "100%", width = "100%" } = defineProps<TechLogoLinkProps>();
+const { height = "28px", width = "28px" } = defineProps<TechLogoLinkProps>();
 </script>
 
 <template>
@@ -18,11 +18,11 @@ const { height = "100%", width = "100%" } = defineProps<TechLogoLinkProps>();
     :title="name"
   >
     <NuxtImg
+      format="webp"
       :src
       :height
       :width
       :alt="`${name} Logo`"
-      :style="{ height: height, width: width }"
     />
   </a>
 </template>
