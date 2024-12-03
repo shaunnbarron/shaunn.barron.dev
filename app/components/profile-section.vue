@@ -14,7 +14,7 @@ defineProps<{ education: Education }>();
       Profile
     </h1>
 
-    <div class="flex flex-col items-center print:flex-row print:items-end print:justify-between print:text-left print:align-text-bottom">
+    <div class="flex flex-col items-center gap-8 print:flex-row print:items-end print:justify-between print:text-left print:align-text-bottom">
       <div>
         <NuxtImg
           src="/avatar.jpeg"
@@ -31,7 +31,7 @@ defineProps<{ education: Education }>();
         </div>
 
         <div>
-          <span class="hidden print:block">Building web applications for over 13 years.</span>
+          <span class="hidden print:block">Hands-on leader building web applications for over 13 years.</span>
           <span class="text-xl print:hidden">Full-stack developer</span>
         </div>
       </div>

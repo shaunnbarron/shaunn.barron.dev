@@ -14,16 +14,14 @@ defineProps<{ work: Job[] }>();
 
     <ol>
       <template
-        v-for="({ company, position, startDatePretty, endDatePretty, highlights }) in work"
-        :key="`${company}-${position}`"
+        v-for="({ company, positions, highlights }, i) in work"
+        :key="`${company}-${i}`"
       >
         <JobCard
-          class="mb-5 print:mb-0 print:break-inside-avoid-page"
-          :company="company"
-          :position="position"
-          :start-date="startDatePretty"
-          :end-date="endDatePretty"
-          :highlights="highlights"
+          class="mb-5 print:mb-0"
+          :company
+          :positions
+          :highlights
         />
       </template>
     </ol>
