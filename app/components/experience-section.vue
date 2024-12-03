@@ -1,8 +1,5 @@
 <script setup lang="ts">
-defineProps<{
-  cv: boolean;
-  work: Job[];
-}>();
+defineProps<{ work: Job[] }>();
 </script>
 
 <template>
@@ -13,21 +10,20 @@ defineProps<{
     <SectionTitle
       id="experience-heading"
       title="Experience"
-      :skinny="cv"
     />
+
     <ol>
       <template
         v-for="({ company, position, startDatePretty, endDatePretty, highlights }) in work"
         :key="`${company}-${position}`"
       >
         <JobCard
-          :class="{ 'mb-5': !cv }"
+          class="mb-5 print:mb-0"
           :company="company"
           :position="position"
           :start-date="startDatePretty"
           :end-date="endDatePretty"
           :highlights="highlights"
-          :cv
         />
       </template>
     </ol>

@@ -1,10 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{
-  cv: boolean;
-  education: Education;
-}>();
-
-const about = computed(() => props.cv ? "Full-stack developer with over 13 years of experience" : "Full-stack developer");
+defineProps<{ education: Education }>();
 </script>
 
 <template>
@@ -21,31 +16,28 @@ const about = computed(() => props.cv ? "Full-stack developer with over 13 years
 
     <NuxtImg
       src="/avatar.jpeg"
-      class="inline rounded-full"
-      :class="{ 'size-24': cv, 'size-36 shadow-lg': !cv }"
+      class="inline size-36 rounded-full shadow-lg print:size-24"
       alt="Profile Image"
       format="webp"
       height="144"
       width="144"
       preload
     />
+
     <div class="mb-2 text-3xl">
       Shaunn Barron
     </div>
+
     <div class="mb-1 text-xl">
-      {{ about }}
+      <span class="hidden print:block">Full-stack developer with over 13 years of experience</span>
+      <span class="print:hidden">Full-stack developer</span>
     </div>
-    <div
-      v-if="!cv"
-      class="mb-4 text-lg"
-    >
+
+    <div class="mb-4 text-lg print:hidden">
       Favorite Tools
     </div>
 
-    <div
-      v-if="!cv"
-      class="mb-4 flex items-center justify-center gap-8 align-middle"
-    >
+    <div class="mb-4 flex items-center justify-center gap-8 align-middle print:hidden">
       <TechLogoLink
         class="w-20"
         src="/go_logo.png"
@@ -54,6 +46,7 @@ const about = computed(() => props.cv ? "Full-stack developer with over 13 years
         height="938px"
         width="1061px"
       />
+
       <TechLogoLink
         class="size-7"
         src="/ts_logo.png"
@@ -63,7 +56,9 @@ const about = computed(() => props.cv ? "Full-stack developer with over 13 years
         width="128px"
       />
     </div>
+
     <div>{{ education.studyType }} - {{ education.area }}</div>
+
     <div class="mb-6">
       {{ education.institution }}
     </div>

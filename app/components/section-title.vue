@@ -1,13 +1,12 @@
 <script setup lang="ts">
-defineProps<{ id: string; title: string; skinny?: boolean }>();
+defineProps<{ id: string; title: string }>();
 </script>
 
 <template>
   <div>
     <h2
       :id
-      class="text-left text-3xl"
-      :class="{ 'mb-2': !skinny }"
+      class="mb-2 text-left text-3xl print:mb-0"
     >
       {{ title }}
     </h2>

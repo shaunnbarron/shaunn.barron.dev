@@ -5,27 +5,20 @@ interface JobCardProps {
   startDate: string;
   endDate?: string;
   highlights: string[];
-  cv?: boolean;
 }
 
-const { cv = false, endDate = "Present" } = defineProps<JobCardProps>();
+const { endDate = "Present" } = defineProps<JobCardProps>();
 </script>
 
 <template>
-  <li
-    class="rounded-lg dark:bg-gray-700"
-    :class="{ 'shadow-md': !cv }"
-  >
-    <div
-      :class="{ 'rounded-lg px-3 py-1': cv, 'flex h-12 items-center rounded-t-lg p-8': !cv }"
-      class=" bg-gradient-to-r  from-emerald-600 to-emerald-400 text-2xl"
-    >
+  <li class="rounded-lg shadow-md dark:bg-gray-700 print:shadow-none dark:print:bg-transparent">
+    <div class="flex h-12 items-center rounded-t-lg bg-gradient-to-r from-emerald-600 to-emerald-400 p-8 text-2xl print:rounded-lg print:px-3 print:py-1">
       <h2 class="w-full text-left text-white">
         {{ company }}
       </h2>
     </div>
 
-    <div :class="{ 'p-6': !cv, 'px-6 py-3': cv }">
+    <div class="p-6 print:px-6 print:py-3">
       <div class="mb-3 flex flex-wrap text-xl">
         <div class="w-1/2 text-left">
           {{ position }}

@@ -2,9 +2,6 @@
 import resume from "../assets/resume.json";
 
 const education = resume.education[0] as Education;
-const route = useRoute();
-const cv = computed(() => route.query.cv === "true");
-provide("cv", cv);
 </script>
 
 <template>
@@ -13,14 +10,8 @@ provide("cv", cv);
       <ThemeToggle class="fixed right-8 top-4 size-5 print:hidden" />
     </ClientOnly>
 
-    <ProfileSection
-      :cv
-      :education
-    />
+    <ProfileSection :education />
 
-    <ExperienceSection
-      :cv
-      :work="resume.work"
-    />
+    <ExperienceSection :work="resume.work" />
   </div>
 </template>
