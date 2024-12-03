@@ -18,7 +18,7 @@ defineProps<{ work: Job[] }>();
         :key="`${company}-${position}`"
       >
         <JobCard
-          class="mb-5 print:mb-0"
+          class="mb-5 print:mb-0 print:break-inside-avoid-page"
           :company="company"
           :position="position"
           :start-date="startDatePretty"

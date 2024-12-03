@@ -5,7 +5,7 @@ const education = resume.education[0] as Education;
 </script>
 
 <template>
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap print:gap-4">
     <ClientOnly>
       <ThemeToggle class="fixed right-8 top-4 size-5 print:hidden" />
     </ClientOnly>

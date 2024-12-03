@@ -14,53 +14,71 @@ defineProps<{ education: Education }>();
       Profile
     </h1>
 
-    <NuxtImg
-      src="/avatar.jpeg"
-      class="inline size-36 rounded-full shadow-lg print:size-24"
-      alt="Profile Image"
-      format="webp"
-      height="144"
-      width="144"
-      preload
-    />
+    <div class="flex flex-col items-center print:flex-row print:items-end print:justify-between print:text-left print:align-text-bottom">
+      <div>
+        <NuxtImg
+          src="/avatar.jpeg"
+          class="inline size-36 rounded-full shadow-lg print:size-24"
+          alt="Profile Image"
+          format="webp"
+          height="144"
+          width="144"
+          preload
+        />
 
-    <div class="mb-2 text-3xl">
-      Shaunn Barron
-    </div>
+        <div class="text-3xl print:hidden">
+          Shaunn Barron
+        </div>
 
-    <div class="mb-1 text-xl">
-      <span class="hidden print:block">Full-stack developer with over 13 years of experience</span>
-      <span class="print:hidden">Full-stack developer</span>
-    </div>
+        <div>
+          <span class="hidden print:block">Building web applications for over 13 years.</span>
+          <span class="text-xl print:hidden">Full-stack developer</span>
+        </div>
+      </div>
 
-    <div class="mb-4 text-lg print:hidden">
-      Favorite Tools
-    </div>
+      <div class="print:text-right">
+        <div class="hidden text-3xl print:block">
+          Shaunn Barron
+        </div>
 
-    <div class="mb-4 flex items-center justify-center gap-8 align-middle print:hidden">
-      <TechLogoLink
-        class="w-20"
-        src="/go_logo.png"
-        name="Go"
-        href="https://go.dev/"
-        height="938px"
-        width="1061px"
-      />
+        <div class="hidden print:block">
+          https://shaunn.barron.dev
+        </div>
 
-      <TechLogoLink
-        class="size-7"
-        src="/ts_logo.png"
-        name="Typescript"
-        href="https://www.typescriptlang.org/"
-        height="128px"
-        width="128px"
-      />
-    </div>
+        <div class="text-lg print:hidden">
+          <div>
+            Favorite Tools
+          </div>
 
-    <div>{{ education.studyType }} - {{ education.area }}</div>
+          <div class="flex items-center justify-center gap-8 align-middle print:hidden">
+            <TechLogoLink
+              class="w-16"
+              src="/go_logo.png"
+              name="Go"
+              href="https://go.dev/"
+              height="938px"
+              width="1061px"
+            />
 
-    <div class="mb-6">
-      {{ education.institution }}
+            <TechLogoLink
+              class="w-7"
+              src="/ts_logo.png"
+              name="Typescript"
+              href="https://www.typescriptlang.org/"
+              height="128px"
+              width="128px"
+            />
+          </div>
+        </div>
+
+        <div class="text-nowrap">
+          {{ education.studyType }} - {{ education.area }}
+        </div>
+
+        <div>
+          {{ education.institution }}
+        </div>
+      </div>
     </div>
   </section>
 </template>
