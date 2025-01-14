@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import SkillIcons from "./skill-icons.vue";
+
 defineProps<{ education: Education }>();
 </script>
 
@@ -45,32 +47,6 @@ defineProps<{ education: Education }>();
           https://shaunn.barron.dev
         </div>
 
-        <div class="text-lg print:hidden">
-          <div>
-            Favorite Tools
-          </div>
-
-          <div class="flex items-center justify-center gap-8 align-middle print:hidden">
-            <TechLogoLink
-              class="w-16"
-              src="/go_logo.png"
-              name="Go"
-              href="https://go.dev/"
-              height="938px"
-              width="1061px"
-            />
-
-            <TechLogoLink
-              class="w-7"
-              src="/ts_logo.png"
-              name="Typescript"
-              href="https://www.typescriptlang.org/"
-              height="128px"
-              width="128px"
-            />
-          </div>
-        </div>
-
         <div class="text-nowrap">
           {{ education.studyType }} - {{ education.area }}
         </div>
@@ -79,6 +55,10 @@ defineProps<{ education: Education }>();
           {{ education.institution }}
         </div>
       </div>
+
+      <SkillIcons class="print:hidden" />
     </div>
+
+    <SkillIcons class="hidden print:mt-6 print:flex" />
   </section>
 </template>

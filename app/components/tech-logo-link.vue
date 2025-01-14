@@ -1,13 +1,13 @@
-<script setup lang="ts">
-interface TechLogoLinkProps {
-  src: string;
+<script lang="ts">
+export interface TechLogoLinkProps {
   name: string;
+  label: string;
   href: string;
-  height?: string;
-  width?: string;
 }
+</script>
 
-const { height = "28px", width = "28px" } = defineProps<TechLogoLinkProps>();
+<script setup lang="ts">
+defineProps<TechLogoLinkProps>();
 </script>
 
 <template>
@@ -15,14 +15,9 @@ const { height = "28px", width = "28px" } = defineProps<TechLogoLinkProps>();
     :href
     target="_blank"
     rel="noreferrer"
-    :title="name"
+    class="flex flex-col items-center"
   >
-    <NuxtImg
-      format="webp"
-      :src
-      :height
-      :width
-      :alt="`${name} Logo`"
-    />
+    <Icon :name />
+    <span>{{ label }}</span>
   </a>
 </template>
