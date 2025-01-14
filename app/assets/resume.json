@@ -20,7 +20,7 @@
     {
       "company": "Fiserv",
       "positions": [
-        {"title": "Enterprise Architect, Senior Advisor", "startDate": "2019-09-09", "startDatePretty": "September 2019"}
+        {"title": "Enterprise Architect, Senior Advisor", "startDate": "2019-09-09", "startDatePretty": "September 2019", "endDate": "2024-12-16", "endDatePretty": "December 2024"}
       ],
       "website": "https://www.fiserv.com/",
       "highlights": [
