@@ -1,63 +1,71 @@
+<script setup lang="ts">
+import type { TechLogoProps } from "./tech-logo.vue";
+
+const links: TechLogoProps[] = [
+  {
+    label: "TypeScript",
+    yoe: 4,
+    name: "logos:typescript-icon",
+  },
+  {
+    label: "JavaScript",
+    yoe: 13,
+    name: "logos:javascript",
+  },
+  {
+    label: "Node",
+    yoe: 8,
+    name: "logos:nodejs-icon",
+  },
+  {
+    label: "Vue",
+    yoe: 8,
+    name: "logos:vue",
+  },
+  {
+    label: "Nuxt",
+    yoe: 3,
+    name: "logos:nuxt-icon",
+  },
+  {
+    label: "React",
+    yoe: 4,
+    name: "logos:react",
+  },
+  {
+    label: "Vite",
+    yoe: 3,
+    name: "logos:vitejs",
+  },
+  {
+    label: "Go",
+    yoe: 4,
+    name: "logos:go",
+  },
+  {
+    label: "Java",
+    yoe: 7,
+    name: "logos:java",
+  },
+  {
+    label: "Kotlin",
+    yoe: 2,
+    name: "logos:kotlin-icon",
+  },
+  {
+    label: "Spring",
+    yoe: 7,
+    name: "logos:spring-icon",
+  },
+];
+</script>
+
 <template>
   <div class="flex flex-wrap justify-center gap-4">
-    <TechLogoLink
-      label="TypeScript"
-      name="logos:typescript-icon"
-      href="https://www.typescriptlang.org/"
-    />
-
-    <TechLogoLink
-      label="Node"
-      name="logos:nodejs-icon"
-      href="https://nodejs.org/en"
-    />
-
-    <TechLogoLink
-      label="Vue"
-      name="logos:vue"
-      href="https://vuejs.org/"
-    />
-
-    <TechLogoLink
-      label="Nuxt"
-      name="logos:nuxt-icon"
-      href="https://nuxt.com/"
-    />
-
-    <TechLogoLink
-      label="React"
-      name="logos:react"
-      href="https://react.dev/"
-    />
-
-    <TechLogoLink
-      label="Vite"
-      name="logos:vitejs"
-      href="https://vite.dev/"
-    />
-
-    <TechLogoLink
-      label="Go"
-      name="logos:go"
-      href="https://go.dev/"
-    />
-
-    <TechLogoLink
-      label="Java"
-      name="logos:java"
-      href="https://openjdk.org/"
-    />
-
-    <TechLogoLink
-      label="Kotlin"
-      name="logos:kotlin-icon"
-      href="https://kotlinlang.org/"
-    />
-
-    <TechLogoLink
-      label="Spring"
-      name="logos:spring-icon"
-      href="https://spring.io/"
+    <TechLogo
+      v-for="link in links"
+      v-bind="link"
+      :key="link.label"
     />
   </div>
 </template>
