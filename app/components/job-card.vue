@@ -2,22 +2,26 @@
 interface JobCardProps {
   company: string;
   positions: Position[];
-  highlights: string[];
+  highlights?: string[];
+  as?: "li" | "div";
 }
 
 interface Position {
   title: string;
-  startDate: string;
-  startDatePretty: string;
+  startDate?: string;
+  startDatePretty?: string;
   endDate?: string;
   endDatePretty?: string;
 }
 
-defineProps<JobCardProps>();
+const { as = "li" } = defineProps<JobCardProps>();
 </script>
 
 <template>
-  <li class="rounded-lg shadow-md dark:bg-gray-700 print:shadow-none dark:print:bg-transparent">
+  <Component
+    :is="as"
+    class="rounded-lg shadow-md dark:bg-gray-700 print:shadow-none dark:print:bg-transparent"
+  >
     <div class="flex h-12 items-center rounded-t-lg bg-gradient-to-r from-emerald-600 to-emerald-400 p-8 text-2xl print:break-inside-avoid-page print:rounded-lg print:px-3 print:py-1">
       <h2 class="w-full text-left text-white">
         {{ company }}
@@ -30,15 +34,21 @@ defineProps<JobCardProps>();
         :key="position.title"
         class="mb-3 flex flex-wrap text-xl"
       >
-        <div class="w-1/2 text-left">
+        <div class="w-1/2 text-nowrap text-left">
           {{ position.title }}
         </div>
-        <div class="w-1/2 text-right">
+        <div
+          v-if="position.startDatePretty"
+          class="w-1/2 text-right"
+        >
           {{ position.startDatePretty }} - {{ position.endDatePretty ?? "Present" }}
         </div>
       </div>
 
-      <hr class="my-4">
+      <hr
+        v-if="highlights"
+        class="my-4"
+      >
 
       <ul class="mt-3 list-disc pl-[20px] text-left">
         <li
@@ -50,5 +60,5 @@ defineProps<JobCardProps>();
         </li>
       </ul>
     </div>
-  </li>
+  </component>
 </template>

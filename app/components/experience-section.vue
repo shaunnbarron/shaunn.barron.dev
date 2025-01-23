@@ -4,7 +4,7 @@ defineProps<{ work: Job[] }>();
 
 <template>
   <section
-    class="w-full px-4 text-center lg:w-2/3"
+    class="text-center"
     aria-labelledby="experience-heading"
   >
     <SectionTitle

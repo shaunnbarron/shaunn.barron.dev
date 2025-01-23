@@ -12,6 +12,10 @@ const education = resume.education[0] as Education;
 
     <ProfileSection :education />
 
-    <ExperienceSection :work="resume.work" />
+    <div class="w-full px-4 lg:w-2/3">
+      <ExperienceSection :work="resume.work" />
+
+      <EducationSection :education />
+    </div>
   </div>
 </template>

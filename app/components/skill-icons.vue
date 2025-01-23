@@ -53,11 +53,6 @@ const links: TechLogoProps[] = [
     name: "logos:java",
   },
   {
-    label: "Kotlin",
-    yoe: 2,
-    name: "logos:kotlin-icon",
-  },
-  {
     label: "Spring",
     yoe: 7,
     name: "logos:spring-icon",
@@ -66,7 +61,7 @@ const links: TechLogoProps[] = [
 </script>
 
 <template>
-  <div class="flex flex-wrap justify-center gap-4">
+  <div class="flex flex-wrap justify-center gap-4 rounded-lg border-[#ccc] px-1 py-4 print:border">
     <TechLogo
       v-for="link in links"
       v-bind="link"

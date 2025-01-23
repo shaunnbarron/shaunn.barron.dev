@@ -81,7 +81,6 @@
         "Event Engine - Service to receive, archive, enrich, and process messages from hundreds of web applications. (Java 8, Spring Boot, MySQL, MongoDB, RabbitMQ)",
         "SquadChx - Android application used to identify patients in ambulances with a fingerprint and notify the hospitals with detail of the incoming patient.",
         "Mission Control - A suite of web applications used to manage external applications as well as provide real-time metrics and reports. (Java 8, Spring Boot, MySQL, Redis, RabbitMQ)",
-        "Zero Gravity - Android application to be used by healthcare sales reps to locate clients via search, maps, and augmented reality. Also displayed product information.",
         "Caching Engine - Service to initialize and maintain a Redis cache. (Java 8, Spring Boot, RabbitMQ, Redis)"
       ]
     },
