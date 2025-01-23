@@ -39,7 +39,7 @@ const { as = "li" } = defineProps<JobCardProps>();
 
           <div
             v-if="position.role"
-            class="text-sm text-zinc-500"
+            class="text-sm text-zinc-500 dark:text-zinc-300"
           >
             {{ position.role }}
           </div>
