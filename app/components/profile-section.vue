@@ -28,6 +28,7 @@
 
         <div>
           <span class="text-xl print:hidden">Full-stack developer</span>
+          <span class="hidden text-sm text-gray-400 print:block">https://shaunn.barron.dev</span>
         </div>
       </div>
 

@@ -37,11 +37,19 @@ const { as = "li" } = defineProps<JobCardProps>();
         <div class="w-1/2 text-nowrap text-left">
           {{ position.title }}
         </div>
+
         <div
           v-if="position.startDatePretty"
           class="w-1/2 text-right"
         >
           {{ position.startDatePretty }} - {{ position.endDatePretty ?? "Present" }}
+        </div>
+
+        <div
+          v-if="position.role"
+          class="text-sm text-gray-400"
+        >
+          {{ position.role }}
         </div>
       </div>
 

@@ -13,9 +13,9 @@ const links: TechLogoProps[] = [
     name: "logos:nuxt-icon",
   },
   {
-    label: "Pinia",
-    yoe: 3,
-    name: "logos:pinia",
+    label: "Node",
+    yoe: 6,
+    name: "logos:nodejs-icon",
   },
   {
     label: "TypeScript",
@@ -26,11 +26,6 @@ const links: TechLogoProps[] = [
     label: "JavaScript",
     yoe: 13,
     name: "logos:javascript",
-  },
-  {
-    label: "Node",
-    yoe: 8,
-    name: "logos:nodejs-icon",
   },
   {
     label: "React",

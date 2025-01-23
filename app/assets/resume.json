@@ -20,18 +20,20 @@
     {
       "company": "Fiserv",
       "positions": [
-        {"title": "Lead Software Engineer", "startDate": "2019-09-09", "startDatePretty": "September 2019", "endDate": "2024-12-16", "endDatePretty": "December 2024"}
+        {"title": "Enterprise Architect, Senior Advisor", "role": "Lead Software Engineer", "startDate": "2019-09-09", "startDatePretty": "Sep 2019", "endDate": "2024-12-16", "endDatePretty": "Dec 2024"}
       ],
       "website": "https://www.fiserv.com/",
       "highlights": [
-        "UI lead for 3 teams in development of greenfield white label banking application and design system (Typescript, Vue, Nuxt, Pinia, Tailwind, Radix-Vue)",
-        "UI lead for digitalpayouts.com first commit to production (Vue, Pinia, Vuetify)",
-        "Technical supervision of Esso (ExxonMobil) mobile platform (Java, Spring Boot, Android, Oracle)"
+        "UI lead for 3 teams in development of greenfield white label banking application and design system (Node, Typescript, Vue, Nuxt, Nitro, Pinia, React, Remix, Express)",
+        "UI lead for digitalpayouts.com first commit to production (Vue, Pinia, Vuetify, Node)",
+        "Technical supervision of Esso (ExxonMobil) mobile platform (Java, Spring Boot, Android, Oracle)",
+        "Interviewing and building new teams",
+        "Annual performance and compensation reviews"
       ]
     },
     {
       "company": "JPMorgan Chase",
-      "positions": [{"title": "Senior Software Engineer", "startDate": "2018-02-05", "startDatePretty": "February 2018", "endDate": "2019-09-06", "endDatePretty": "September 2019"}],
+      "positions": [{"title": "Vice President - Software Engineering","role": "Senior Software Engineer", "startDate": "2018-02-05", "startDatePretty": "Feb 2018", "endDate": "2019-09-06", "endDatePretty": "Sep 2019"}],
       "website": "https://www.jpmorganchase.com/",
       "highlights": [
         "Crypto Wallet - Prototype application for managing both hot and cold Bitcoin and Ethereum wallets and transfers. (Go, Kotlin, Spring Boot, Vue, PostgreSQL, Vault)",
@@ -42,28 +44,27 @@
     },
     {
       "company": "Olive",
-      "positions": [{"title": "Senior Software Engineer", "startDate": "2016-11-14", "startDatePretty": "November 2016", "endDate": "2018-02-02", "endDatePretty": "February 2018"}],
+      "positions": [{"title": "Senior Software Engineer", "startDate": "2016-11-14", "startDatePretty": "Nov 2016", "endDate": "2018-02-02", "endDatePretty": "Feb 2018"}],
       "website": "https://oliveai.com",
       "highlights": [
         "Olive Manager UI - Single page web app to build and launch various workflows in AWS. (React)",
-        "Olive Planner - Job Scheduler (Go, Buffalo, Vue)",
+        "Olive Planner - Job Scheduler (Go, Buffalo, Vue, Node)",
         "Skill Adapter - An application used to download and run any other application and upload output to S3. (Go, AWS S3, Vault)",
-        "Mimic - Desktop automation software. (Node, Electron, OpenCV)",
-        "Connect For Care Managers - Backend web services to facilitate patient care for Accountable Care Organizations. (Kotlin, Java 8, Spring Boot, MySQL, Kafka)"
+        "Mimic - Desktop automation software. (Node, Electron, OpenCV)"
       ]
     },
     {
       "company": "Cardinal Health",
-      "positions": [{"title": "Software Engineer", "startDate": "2015-08-01", "startDatePretty": "August 2015", "endDate": "2016-11-11", "endDatePretty": "November 2016"}],
+      "positions": [{"title": "Software Engineer", "startDate": "2015-08-01", "startDatePretty": "Aug 2015", "endDate": "2016-11-11", "endDatePretty": "Nov 2016"}],
       "website": "https://www.cardinalhealth.com/en/about-us/who-we-are/fuse-by-cardinal-health.html",
       "highlights": [
-        "Care Management - Single page web application and RESTful web service used by pharmacists to manage patient medications. (EmberJS, Java 8, Spring Boot, Cassandra, Elasticsearch, Kafka)",
+        "Care Management - Single page web application and RESTful web service used by pharmacists to manage patient medications. (EmberJS, Node, Java 8, Spring Boot, Cassandra, Elasticsearch, Kafka)",
         "Alfred - Android application and RESTful web service used to manage patient medication adherence. (Java 8, Spring Boot, AngularJS, MySQL, Kafka)"
       ]
     },
     {
       "company": "NetJets",
-      "positions": [{"title": "Senior Developer Analyst", "startDate": "2015-02-01", "startDatePretty": "February 2015", "endDate": "2015-08-01", "endDatePretty": "August 2015"}],
+      "positions": [{"title": "Senior Developer Analyst", "startDate": "2015-02-01", "startDatePretty": "Feb 2015", "endDate": "2015-08-01", "endDatePretty": "Aug 2015"}],
       "website": "https://www.netjets.com",
       "summary": "",
       "highlights": [
@@ -72,21 +73,20 @@
     },
     {
       "company": "Olive",
-      "positions": [{"title": "Software Engineer, Team Lead", "startDate": "2012-09-01", "startDatePretty": "September 2012", "endDate": "2015-02-01", "endDatePretty": "February 2015"}],
+      "positions": [{"title": "Software Engineer, Team Lead", "startDate": "2012-09-01", "startDatePretty": "Sep 2012", "endDate": "2015-02-01", "endDatePretty": "Feb 2015"}],
       "website": "https://oliveai.com",
       "summary": "Company's first full-time product engineer. Responsible for product development and much of the company's current architecture.",
       "highlights": [
         "Biometric Engine - Distributed fingerprint identification application. (Java 8, Spring Boot, MySQL, RabbitMQ)",
         "SafeChx - Web application used to register patients at hospitals with a fingerprint scan. (Java Applet, Java 7, Spring MVC)",
         "Event Engine - Service to receive, archive, enrich, and process messages from hundreds of web applications. (Java 8, Spring Boot, MySQL, MongoDB, RabbitMQ)",
-        "SquadChx - Android application used to identify patients in ambulances with a fingerprint and notify the hospitals with detail of the incoming patient.",
         "Mission Control - A suite of web applications used to manage external applications as well as provide real-time metrics and reports. (Java 8, Spring Boot, MySQL, Redis, RabbitMQ)",
         "Caching Engine - Service to initialize and maintain a Redis cache. (Java 8, Spring Boot, RabbitMQ, Redis)"
       ]
     },
     {
       "company": "Nationwide",
-      "positions": [{"title": "Developer, IT Applications", "startDate": "2011-07-01", "startDatePretty": "July 2011", "endDate": "2012-09-01", "endDatePretty": "September 2012"}],
+      "positions": [{"title": "Developer, IT Applications", "startDate": "2011-07-01", "startDatePretty": "Jul 2011", "endDate": "2012-09-01", "endDatePretty": "Sep 2012"}],
       "website": "https://www.nationwide.com",
       "summary": "",
       "highlights": [
