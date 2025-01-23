@@ -20,24 +20,23 @@
     {
       "company": "Fiserv",
       "positions": [
-        {"title": "Enterprise Architect, Senior Advisor", "startDate": "2019-09-09", "startDatePretty": "September 2019", "endDate": "2024-12-16", "endDatePretty": "December 2024"}
+        {"title": "Lead Software Engineer", "startDate": "2019-09-09", "startDatePretty": "September 2019", "endDate": "2024-12-16", "endDatePretty": "December 2024"}
       ],
       "website": "https://www.fiserv.com/",
       "highlights": [
-        "UI lead for 3 teams in development of greenfield white label banking application and design system (Typescript, React, Remix)",
-        "UI lead for digitalpayouts.com first commit to production (Vue, Pinia)",
+        "UI lead for 3 teams in development of greenfield white label banking application and design system (Typescript, Vue, Nuxt, Pinia, Tailwind, Radix-Vue)",
+        "UI lead for digitalpayouts.com first commit to production (Vue, Pinia, Vuetify)",
         "Technical supervision of Esso (ExxonMobil) mobile platform (Java, Spring Boot, Android, Oracle)"
       ]
     },
     {
       "company": "JPMorgan Chase",
-      "positions": [{"title": "Vice President - Software Engineering", "startDate": "2018-02-05", "startDatePretty": "February 2018", "endDate": "2019-09-06", "endDatePretty": "September 2019"}],
+      "positions": [{"title": "Senior Software Engineer", "startDate": "2018-02-05", "startDatePretty": "February 2018", "endDate": "2019-09-06", "endDatePretty": "September 2019"}],
       "website": "https://www.jpmorganchase.com/",
       "highlights": [
         "Crypto Wallet - Prototype application for managing both hot and cold Bitcoin and Ethereum wallets and transfers. (Go, Kotlin, Spring Boot, Vue, PostgreSQL, Vault)",
         "Disputes - Prototype application to resolve credit card disputes using Blockchain technology. (Go, Ethereum, Vue, PostgreSQL)",
         "iMobility - Internal social networking application with a focus on mentoring and career development. (Java, Spring Boot, Angular, MariaDB)",
-        "Allowance - Prototype mobile application for managing a child's chores and funding their allowance. (Flutter, Firebase)",
         "Virtual Bank - Prototype multi-user virtual bank environment with voice chat for the Oculus Rift. (Unity, C#)"
       ]
     },

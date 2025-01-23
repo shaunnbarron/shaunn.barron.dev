@@ -33,7 +33,7 @@ defineProps<{ education: Education }>();
         </div>
 
         <div>
-          <span class="hidden print:block">Hands-on leader building web applications for over 13 years.</span>
+          <span class="hidden print:block">Passionate full-stack developer building web applications for over 13 years.</span>
           <span class="text-xl print:hidden">Full-stack developer</span>
         </div>
       </div>
