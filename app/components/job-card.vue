@@ -32,27 +32,24 @@ const { as = "li" } = defineProps<JobCardProps>();
       <div
         v-for="position in positions"
         :key="position.title"
-        class="mb-3 flex flex-wrap text-xl"
+        class="mb-3 flex justify-between text-xl"
       >
-        <div
-          class="text-left"
-          :class="{ 'w-1/2': position.startDatePretty }"
-        >
-          {{ position.title }}
+        <div class="text-left">
+          <div>{{ position.title }}</div>
+
+          <div
+            v-if="position.role"
+            class="text-sm text-gray-400"
+          >
+            {{ position.role }}
+          </div>
         </div>
 
         <div
           v-if="position.startDatePretty"
-          class="w-1/2 text-right"
+          class="text-right"
         >
           {{ position.startDatePretty }} - {{ position.endDatePretty ?? "Present" }}
-        </div>
-
-        <div
-          v-if="position.role"
-          class="text-sm text-gray-400"
-        >
-          {{ position.role }}
         </div>
       </div>
 
