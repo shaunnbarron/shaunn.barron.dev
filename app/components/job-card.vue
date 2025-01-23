@@ -34,7 +34,10 @@ const { as = "li" } = defineProps<JobCardProps>();
         :key="position.title"
         class="mb-3 flex flex-wrap text-xl"
       >
-        <div class="w-1/2 text-nowrap text-left">
+        <div
+          class="text-left"
+          :class="{ 'w-1/2': position.startDatePretty }"
+        >
           {{ position.title }}
         </div>
 
@@ -58,7 +61,10 @@ const { as = "li" } = defineProps<JobCardProps>();
         class="my-4"
       >
 
-      <ul class="mt-3 list-disc pl-[20px] text-left">
+      <ul
+        v-if="highlights"
+        class="mt-3 list-disc pl-[20px] text-left"
+      >
         <li
           v-for="(highlight, i) in highlights"
           :key="`${highlight}-${i}`"
