@@ -6,14 +6,6 @@ interface JobCardProps {
   as?: "li" | "div";
 }
 
-interface Position {
-  title: string;
-  startDate?: string;
-  startDatePretty?: string;
-  endDate?: string;
-  endDatePretty?: string;
-}
-
 const { as = "li" } = defineProps<JobCardProps>();
 </script>
 
@@ -38,7 +30,7 @@ const { as = "li" } = defineProps<JobCardProps>();
           <div>{{ position.title }}</div>
 
           <div
-            v-if="position.role"
+            v-if="'role' in position"
             class="text-sm text-zinc-500 dark:text-zinc-300"
           >
             {{ position.role }}

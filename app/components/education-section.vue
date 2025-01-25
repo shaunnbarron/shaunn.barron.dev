@@ -15,7 +15,7 @@ defineProps<{ education: Education }>();
     <JobCard
       as="div"
       :company="education.institution"
-      :positions="[{ title: `${education.studyType} - ${education.area}` }]"
+      :positions="[{ title: `${education.studyType} - ${education.area}` } as Position]"
     />
   </section>
 </template>
