@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 body {
   -webkit-print-color-adjust:exact !important;
   print-color-adjust:exact !important
