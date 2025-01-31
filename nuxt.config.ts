@@ -1,3 +1,5 @@
+import tailwindcss from "@tailwindcss/vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
@@ -5,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     "@nuxt/image",
     "@nuxtjs/color-mode",
-    "@nuxtjs/tailwindcss",
     "@nuxt/eslint",
     "@nuxt/icon",
   ],
@@ -36,6 +37,12 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2024-07-02",
+
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
 
   typescript: {
     tsConfig: {

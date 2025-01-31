@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 body {
   -webkit-print-color-adjust:exact !important;
   print-color-adjust:exact !important
