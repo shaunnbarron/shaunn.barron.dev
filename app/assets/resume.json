@@ -24,11 +24,9 @@
       ],
       "website": "https://www.fiserv.com/",
       "highlights": [
-        "UI lead for 3 teams in development of greenfield white label banking application and design system (Node, Typescript, Vue, Nuxt, Nitro, Pinia, React, Remix, Express)",
+        "UI lead for 3 teams in development of greenfield white label banking application and design system (Typescript, React, Remix)",
         "UI lead for digitalpayouts.com first commit to production (Vue, Pinia, Vuetify, Node)",
-        "Technical supervision of Esso (ExxonMobil) mobile platform (Java, Spring Boot, Android, Oracle)",
-        "Interviewing and building new teams",
-        "Annual performance and compensation reviews"
+        "Technical supervision of Esso (ExxonMobil) mobile platform (Java, Spring Boot, Android, Oracle)"
       ]
     },
     {

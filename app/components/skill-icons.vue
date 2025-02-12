@@ -39,7 +39,7 @@ const links: TechLogoProps[] = [
   },
   {
     label: "Go",
-    yoe: 4,
+    yoe: 3,
     name: "logos:go",
   },
   {
