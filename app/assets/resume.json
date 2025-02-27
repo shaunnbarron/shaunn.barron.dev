@@ -20,12 +20,21 @@
     {
       "company": "Fiserv",
       "positions": [
-        {"title": "Enterprise Architect, Senior Advisor", "role": "Lead Software Engineer", "startDate": "2019-09-09", "startDatePretty": "Sep 2019", "endDate": "2024-12-16", "endDatePretty": "Dec 2024"}
+        {"title": "Director Software Development", "startDate": "2022-07-01", "startDatePretty": "July 2022", "endDate": "2024-12-16", "endDatePretty": "December 2024"}
       ],
       "website": "https://www.fiserv.com/",
       "highlights": [
-        "UI lead for 3 teams in development of greenfield white label banking application and design system (Typescript, React, Remix)",
-        "UI lead for digitalpayouts.com first commit to production (Vue, Pinia, Vuetify, Node)",
+        "Lead and manage 3 teams developing greenfield white label banking application and design system (Typescript, Vue, Nuxt, React, Remix)"
+      ]
+    },
+    {
+      "company": "Fiserv",
+      "positions": [
+        {"title": "Enterprise Architect, Senior Advisor", "startDate": "2019-09-09", "startDatePretty": "September 2019", "endDate": "2022-07-01", "endDatePretty": "July 2022"}
+      ],
+      "website": "https://www.fiserv.com/",
+      "highlights": [
+        "UI lead for digitalpayouts.com first commit to production (Vue, Pinia)",
         "Technical supervision of Esso (ExxonMobil) mobile platform (Java, Spring Boot, Android, Oracle)"
       ]
     },
