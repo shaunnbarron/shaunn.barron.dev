@@ -18,6 +18,17 @@
   },
   "work": [
     {
+      "company": "NaviStone",
+      "positions": [
+        {"title": "Senior FullStack Javacript Engineer", "startDate": "2025-02-25", "startDatePretty": "February 2025"}
+      ],
+      "website": "https://www.navistone.com/",
+      "highlights": [
+        "Client-facing application used to manage and configure retargeting campaigns (Typescript, Vue)",
+        "Client-facing documention site (Typescript, Nuxt, Vue, Storyblok)"
+      ]
+    },
+    {
       "company": "Fiserv",
       "positions": [
         {"title": "Director Software Development", "startDate": "2022-07-01", "startDatePretty": "July 2022", "endDate": "2024-12-16", "endDatePretty": "December 2024"}
