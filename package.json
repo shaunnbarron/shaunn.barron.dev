@@ -11,7 +11,7 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "nuxt": "3.16.0",
+    "nuxt": "3.16.1",
     "vue": "3.5.13",
     "vue-router": "4.5.0"
   },
@@ -21,7 +21,7 @@
     "@nuxt/devtools": "2.3.0",
     "@nuxt/eslint": "1.2.0",
     "@nuxt/icon": "1.11.0",
-    "@nuxt/image": "1.9.0",
+    "@nuxt/image": "1.10.0",
     "@nuxtjs/color-mode": "3.5.2",
     "@tailwindcss/vite": "4.0.14",
     "eslint": "9.22.0",
@@ -38,6 +38,5 @@
     "onlyBuiltDependencies": [
       "sharp"
     ]
-  },
-  "packageManager": "pnpm@9.15.6+sha512.139cab068fdf0b751268179ac5f909b5be72afb4a75c513d1905d151befc8977b593d3cf8671ed83d4d6637c5c94b98ffbce108125de4a5a27a31233601a99de"
+  }
 }
