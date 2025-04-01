@@ -24,6 +24,7 @@
       ],
       "website": "https://www.navistone.com/",
       "highlights": [
+        "Leading effort to merge client-facing and internal applications into a single unified platform. (Typescript, Nuxt, Nuxt UI, Vue, GraphQL)",
         "Client-facing application used to manage and configure retargeting campaigns (Typescript, Vue)",
         "Client-facing documention site (Typescript, Nuxt, Vue, Storyblok)"
       ]
@@ -96,19 +97,9 @@
       "summary": "Company's first full-time product engineer. Responsible for product development and much of the company's current architecture.",
       "highlights": [
         "Biometric Engine - Distributed fingerprint identification application. (Java 8, Spring Boot, MySQL, RabbitMQ)",
-        "SafeChx - Web application used to register patients at hospitals with a fingerprint scan. (Java Applet, Java 7, Spring MVC)",
         "Event Engine - Service to receive, archive, enrich, and process messages from hundreds of web applications. (Java 8, Spring Boot, MySQL, MongoDB, RabbitMQ)",
         "Mission Control - A suite of web applications used to manage external applications as well as provide real-time metrics and reports. (Java 8, Spring Boot, MySQL, Redis, RabbitMQ)",
         "Caching Engine - Service to initialize and maintain a Redis cache. (Java 8, Spring Boot, RabbitMQ, Redis)"
-      ]
-    },
-    {
-      "company": "Nationwide",
-      "positions": [{"title": "Developer, IT Applications", "startDate": "2011-07-01", "startDatePretty": "Jul 2011", "endDate": "2012-09-01", "endDatePretty": "Sep 2012"}],
-      "website": "https://www.nationwide.com",
-      "summary": "",
-      "highlights": [
-        "Financial Systems - A suite of applications used calculate unit values, calculate performance, and trade mutual funds. (Java 6, Struts, Oracle)"
       ]
     }
   ],
