@@ -24,8 +24,7 @@
       ],
       "website": "https://www.navistone.com/",
       "highlights": [
-        "Leading effort to merge client-facing and internal applications into a new unified platform. (Typescript, Nuxt, Nuxt UI, Vue, GraphQL)",
-        "Client-facing documentation site (Typescript, Nuxt, Vue, Storyblok)"
+        "Leading effort to merge client-facing and internal UI's and API's into a new unified platform. (Typescript, Nuxt, Vue, Drizzle, PostgreSQL)"
       ]
     },
     {
