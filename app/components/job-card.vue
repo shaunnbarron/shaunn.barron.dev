@@ -41,7 +41,7 @@ const { as = "li" } = defineProps<JobCardProps>();
           v-if="position.startDatePretty"
           class="text-right"
         >
-          {{ position.startDatePretty }} - {{ position.endDatePretty ?? "Present" }}
+          {{ position.startDatePretty }} - {{ "endDatePretty" in position ? position.endDatePretty : "Present" }}
         </div>
       </div>
 
