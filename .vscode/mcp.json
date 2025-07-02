@@ -1,0 +1,7 @@
+{
+    "servers": {
+        "nuxt-mcp": {
+            "url": "https://mcp.nuxt.space/sse"
+        }
+    }
+}

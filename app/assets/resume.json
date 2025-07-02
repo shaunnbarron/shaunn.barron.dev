@@ -6,7 +6,7 @@
     "email": "shaunn@barron.dev",
     "phone": "",
     "website": "https://shaunn.barron.dev",
-    "summary": "Building web applications for over 13 years.",
+    "summary": "Building web applications for 14 years.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,32 +18,34 @@
   },
   "work": [
     {
-      "company": "NaviStone",
+      "company": "Kroger Technology & Digital",
       "positions": [
-        {"title": "Senior FullStack Javacript Engineer", "startDate": "2025-02-25", "startDatePretty": "February 2025"}
+        {"title": "Advanced Software Engineer", "startDate": "2025-06-30", "startDatePretty": "June 2025"}
+      ],
+      "website": "https://www.kroger.com/",
+      "highlights": [
+        "Tech lead for Membership, Offers, and Benefits teams."
+      ]
+    },
+    {
+      "company": "Vaco",
+      "positions": [
+        {"title": "Senior FullStack JavaScript Engineer", "startDate": "2025-02-25", "startDatePretty": "February 2025", "endDate": "2025-05-08", "endDatePretty": "May 2025"}
       ],
       "website": "https://www.navistone.com/",
       "highlights": [
-        "Leading effort to merge client-facing and internal UI's and API's into a new unified platform. (Typescript, Nuxt, Vue, Drizzle, PostgreSQL)"
+        "Leading effort to merge client-facing and internal UI's and API's into a new unified platform. (Node, Typescript, Nuxt, Vue, Drizzle, PostgreSQL)"
       ]
     },
     {
       "company": "Fiserv",
       "positions": [
-        {"title": "Director Software Development", "startDate": "2022-07-01", "startDatePretty": "July 2022", "endDate": "2024-12-16", "endDatePretty": "December 2024"}
-      ],
-      "website": "https://www.fiserv.com/",
-      "highlights": [
-        "Led and managed 3 teams developing greenfield white label banking application and design system (Typescript, React, Remix)"
-      ]
-    },
-    {
-      "company": "Fiserv",
-      "positions": [
+        {"title": "Director Software Development", "startDate": "2022-07-01", "startDatePretty": "July 2022", "endDate": "2024-12-16", "endDatePretty": "December 2024"},
         {"title": "Enterprise Architect, Senior Advisor", "startDate": "2019-09-09", "startDatePretty": "September 2019", "endDate": "2022-07-01", "endDatePretty": "July 2022"}
       ],
       "website": "https://www.fiserv.com/",
       "highlights": [
+        "Led and managed 3 UI teams developing greenfield white label banking application and design system (Node, Typescript, React, Remix)",
         "UI lead for digitalpayouts.com first commit to production (Vue, Pinia)",
         "Technical supervision of Esso (ExxonMobil) mobile platform (Java, Spring Boot, Android, Oracle)"
       ]
@@ -64,19 +66,19 @@
       "positions": [{"title": "Senior Software Engineer", "startDate": "2016-11-14", "startDatePretty": "Nov 2016", "endDate": "2018-02-02", "endDatePretty": "Feb 2018"}],
       "website": "https://oliveai.com",
       "highlights": [
-        "Olive Manager UI - Single page web app to build and launch various workflows in AWS. (React)",
+        "Olive Manager - Web application to build and launch various workflows in AWS. (React)",
         "Olive Planner - Job Scheduler (Go, Buffalo, Vue, Node)",
-        "Skill Adapter - An application used to download and run any other application and upload output to S3. (Go, AWS S3, Vault)",
+        "Skill Adapter - CLI used to download and run any other application and upload output to S3. (Go, AWS S3, Vault)",
         "Mimic - Desktop automation software. (Node, Electron, OpenCV)"
       ]
     },
     {
-      "company": "Cardinal Health",
+      "company": "Cardinal Health (Fuse)",
       "positions": [{"title": "Software Engineer", "startDate": "2015-08-01", "startDatePretty": "Aug 2015", "endDate": "2016-11-11", "endDatePretty": "Nov 2016"}],
       "website": "https://www.cardinalhealth.com/en/about-us/who-we-are/fuse-by-cardinal-health.html",
       "highlights": [
-        "Care Management - Single page web application and RESTful web service used by pharmacists to manage patient medications. (EmberJS, Node, Java 8, Spring Boot, Cassandra, Elasticsearch, Kafka)",
-        "Alfred - Android application and RESTful web service used to manage patient medication adherence. (Java 8, Spring Boot, AngularJS, MySQL, Kafka)"
+        "Care Management - Web application used by pharmacists to manage patient medications. (EmberJS, Node, Java 8, Spring Boot, Cassandra, Elasticsearch, Kafka)",
+        "Alfred - Android application used to manage patient medication adherence. (Java 8, Spring Boot, AngularJS, MySQL, Kafka)"
       ]
     },
     {
@@ -85,7 +87,7 @@
       "website": "https://www.netjets.com",
       "summary": "",
       "highlights": [
-        "Enterprise Trip Management - Single page web application and RESTful web services used to quote, book, and manage flights. (AngularJS, Groovy, Grails, Oracle, Elasticsearch)"
+        "ETM - Web application used to quote, book, and manage flights. (AngularJS, Groovy, Grails, Oracle, Elasticsearch)"
       ]
     },
     {
@@ -99,6 +101,11 @@
         "Mission Control - A suite of web applications used to manage external applications as well as provide real-time metrics and reports. (Java 8, Spring Boot, MySQL, Redis, RabbitMQ)",
         "Caching Engine - Service to initialize and maintain a Redis cache. (Java 8, Spring Boot, RabbitMQ, Redis)"
       ]
+    },
+    {
+      "company": "Nationwide",
+      "positions": [{"title": "Developer, IT Applications", "startDate": "2011-07-01", "startDatePretty": "Jul 2011", "endDate": "2012-09-01", "endDatePretty": "Sep 2012"}],
+      "highlights": ["Financial Systems - A suite of web applications used trade mutual funds. (Java 6, Struts, Oracle)"]
     }
   ],
   "volunteer": [],

@@ -14,7 +14,7 @@ const { as = "li" } = defineProps<JobCardProps>();
     :is="as"
     class="rounded-lg shadow-md dark:bg-gray-700 print:shadow-none dark:print:bg-transparent"
   >
-    <div class="flex h-12 items-center rounded-t-lg bg-gradient-to-r from-emerald-600 to-emerald-400 p-8 text-2xl print:break-inside-avoid-page print:rounded-lg print:px-3 print:py-1">
+    <div class="flex h-10 items-center rounded-t-lg bg-gradient-to-r from-emerald-600 to-emerald-400 p-8 text-lg print:break-inside-avoid-page print:rounded-lg print:px-3 print:py-1">
       <h2 class="w-full text-left text-white">
         {{ company }}
       </h2>
@@ -24,7 +24,7 @@ const { as = "li" } = defineProps<JobCardProps>();
       <div
         v-for="position in positions"
         :key="position.title"
-        class="mb-3 flex justify-between text-xl"
+        class="mb-3 flex justify-between text-lg"
       >
         <div class="text-left">
           <div>{{ position.title }}</div>

@@ -6,7 +6,7 @@ defineProps<{ id: string; title: string }>();
   <div>
     <h2
       :id
-      class="mb-2 text-left text-3xl print:mb-0"
+      class="mb-2 text-left text-xl print:mb-0"
     >
       {{ title }}
     </h2>
