@@ -98,8 +98,7 @@
       "highlights": [
         "Biometric Engine - Distributed fingerprint identification application. (Java 8, Spring Boot, MySQL, RabbitMQ)",
         "Event Engine - Service to receive, archive, enrich, and process messages from hundreds of web applications. (Java 8, Spring Boot, MySQL, MongoDB, RabbitMQ)",
-        "Mission Control - A suite of web applications used to manage external applications as well as provide real-time metrics and reports. (Java 8, Spring Boot, MySQL, Redis, RabbitMQ)",
-        "Caching Engine - Service to initialize and maintain a Redis cache. (Java 8, Spring Boot, RabbitMQ, Redis)"
+        "Mission Control - A suite of web applications used to manage external applications as well as provide real-time metrics and reports. (Java 8, Spring Boot, MySQL, Redis, RabbitMQ)"
       ]
     },
     {
