@@ -11,7 +11,7 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "nuxt": "4.0.1",
+    "nuxt": "4.0.2",
     "vue": "3.5.18",
     "vue-router": "4.5.1"
   },
@@ -24,7 +24,7 @@
     "@nuxt/image": "1.10.0",
     "@nuxtjs/color-mode": "3.5.2",
     "@tailwindcss/vite": "4.1.11",
-    "eslint": "9.31.0",
+    "eslint": "9.32.0",
     "eslint-plugin-tailwindcss": "3.18.2",
     "tailwindcss": "4.1.11",
     "typescript": "5.8.3",
