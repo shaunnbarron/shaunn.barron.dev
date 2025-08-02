@@ -21,14 +21,14 @@
     "@nuxt/devtools": "2.6.2",
     "@nuxt/eslint": "1.7.1",
     "@nuxt/icon": "1.15.0",
-    "@nuxt/image": "1.10.0",
+    "@nuxt/image": "1.11.0",
     "@nuxtjs/color-mode": "3.5.2",
     "@tailwindcss/vite": "4.1.11",
     "eslint": "9.32.0",
     "eslint-plugin-tailwindcss": "3.18.2",
     "tailwindcss": "4.1.11",
-    "typescript": "5.8.3",
-    "vue-tsc": "3.0.4"
+    "typescript": "5.9.2",
+    "vue-tsc": "3.0.5"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
