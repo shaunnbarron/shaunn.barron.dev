@@ -24,17 +24,7 @@
       ],
       "website": "https://www.kroger.com/",
       "highlights": [
-        "Building full-stack applications across Membership, Offers, and Benefits teams."
-      ]
-    },
-    {
-      "company": "Vaco",
-      "positions": [
-        {"title": "Senior FullStack JavaScript Engineer", "startDate": "2025-02-25", "startDatePretty": "February 2025", "endDate": "2025-05-08", "endDatePretty": "May 2025"}
-      ],
-      "website": "https://www.navistone.com/",
-      "highlights": [
-        "Leading effort to merge client-facing and internal UI's and API's into a new unified platform. (Node, Typescript, Nuxt, Vue, Drizzle, PostgreSQL)"
+        "Leading UI effort across Membership, Offers, and Benefits teams."
       ]
     },
     {

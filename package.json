@@ -12,23 +12,23 @@
   },
   "dependencies": {
     "nuxt": "4.0.3",
-    "vue": "3.5.18",
+    "vue": "3.5.20",
     "vue-router": "4.5.1"
   },
   "devDependencies": {
     "@iconify-json/heroicons": "1.2.2",
-    "@iconify-json/logos": "1.2.5",
-    "@nuxt/devtools": "2.6.2",
-    "@nuxt/eslint": "1.7.1",
-    "@nuxt/icon": "1.15.0",
+    "@iconify-json/logos": "1.2.9",
+    "@nuxt/devtools": "2.6.3",
+    "@nuxt/eslint": "1.9.0",
+    "@nuxt/icon": "2.0.0",
     "@nuxt/image": "1.11.0",
     "@nuxtjs/color-mode": "3.5.2",
-    "@tailwindcss/vite": "4.1.11",
-    "eslint": "9.32.0",
+    "@tailwindcss/vite": "4.1.12",
+    "eslint": "9.34.0",
     "eslint-plugin-tailwindcss": "3.18.2",
-    "tailwindcss": "4.1.11",
+    "tailwindcss": "4.1.12",
     "typescript": "5.9.2",
-    "vue-tsc": "3.0.5"
+    "vue-tsc": "3.0.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
