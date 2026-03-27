@@ -4,37 +4,37 @@ import type { TechLogoProps } from "./tech-logo.vue";
 const links: TechLogoProps[] = [
   {
     label: "JavaScript",
-    yoe: 14,
+    yoe: 15,
     name: "logos:javascript",
   },
   {
     label: "TypeScript",
-    yoe: 4,
+    yoe: 5,
     name: "logos:typescript-icon",
   },
   {
     label: "Node",
-    yoe: 6,
+    yoe: 7,
     name: "logos:nodejs-icon",
   },
   {
     label: "Vue",
-    yoe: 8,
+    yoe: 9,
     name: "logos:vue",
   },
   {
     label: "React",
-    yoe: 4,
+    yoe: 5,
     name: "logos:react",
   },
   {
     label: "Nuxt",
-    yoe: 3,
+    yoe: 4,
     name: "logos:nuxt-icon",
   },
   {
     label: "Vite",
-    yoe: 3,
+    yoe: 4,
     name: "logos:vitejs",
   },
   {

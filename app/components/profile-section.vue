@@ -36,7 +36,7 @@
     </div>
 
     <div class="hidden text-left print:block">
-      <span>Passionate full-stack developer building web applications for 14 years.</span>
+      <span>Passionate full-stack developer building web applications for 15 years.</span>
     </div>
 
     <SkillIcons class="col-span-2 hidden print:mt-6 print:flex" />

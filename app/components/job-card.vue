@@ -57,7 +57,7 @@ const { as = "li" } = defineProps<JobCardProps>();
         <li
           v-for="(highlight, i) in highlights"
           :key="`${highlight}-${i}`"
-          class="mb-4"
+          class="mb-2"
         >
           {{ highlight }}
         </li>
