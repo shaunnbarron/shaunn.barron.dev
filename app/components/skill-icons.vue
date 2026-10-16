@@ -14,22 +14,22 @@ const links: TechLogoProps[] = [
   },
   {
     label: "Node",
-    yoe: 7,
+    yoe: 8,
     name: "logos:nodejs-icon",
   },
   {
     label: "Vue",
-    yoe: 9,
+    yoe: 10,
     name: "logos:vue",
   },
   {
     label: "React",
-    yoe: 5,
+    yoe: 6,
     name: "logos:react",
   },
   {
     label: "Nuxt",
-    yoe: 4,
+    yoe: 5,
     name: "logos:nuxt-icon",
   },
   {

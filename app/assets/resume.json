@@ -6,7 +6,7 @@
     "email": "shaunn@barron.dev",
     "phone": "",
     "website": "https://shaunn.barron.dev",
-    "summary": "Building web applications for 14 years.",
+    "summary": "Building web applications for 15 years.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,9 +24,10 @@
       ],
       "website": "https://www.kroger.com/",
       "highlights": [
-        "UI Lead for Memberships, Offers, and Benefits Setup application",
-        "Driving tech stack and tooling modernization across M.O.B. group",
-        "Led effort to migrate Angular application to React"
+        "UI Lead for Loyalty division (React, React Router, Vitest, Zod, Tailwind)",
+        "Claude Code SME - Member of Kroger-wide Claude Code Council and MX AI SDLC Spoke",
+        "Author of Claude Code UI plugin consumed across Loyalty division",
+        "Driving tech stack and tooling modernization across Merchandising pillar"
       ]
     },
     {
